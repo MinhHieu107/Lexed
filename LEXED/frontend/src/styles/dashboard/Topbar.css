@@ -1,0 +1,141 @@
+.topbar {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 16px;
+
+    padding: 24px 40px;
+
+    background: #f3efe9;
+
+}
+
+.topbar-menu-btn {
+
+    background: none;
+
+    border: none;
+
+    font-size: 20px;
+
+    color: #3a352a;
+
+    cursor: pointer;
+
+}
+
+.topbar-search {
+
+    flex: 1;
+
+    max-width: 480px;
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 10px;
+
+    background: #d9dcc7;
+
+    border-radius: 999px;
+
+    padding: 10px 20px;
+
+    color: #6b6350;
+
+}
+
+.topbar-search input {
+
+    border: none;
+
+    background: none;
+
+    outline: none;
+
+    flex: 1;
+
+    font-size: 14px;
+
+    color: #3a352a;
+
+}
+
+.topbar-icon-btn {
+
+    width: 40px;
+
+    height: 40px;
+
+    border-radius: 50%;
+
+    border: none;
+
+    background: #ffffff;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    font-size: 18px;
+
+    color: #3a352a;
+
+    cursor: pointer;
+
+    margin-left: auto;
+
+}
+
+.topbar-icon-btn + .topbar-icon-btn {
+
+    margin-left: 0;
+
+}
+
+.topbar-add-btn {
+
+    background: #8ca16d;
+
+    color: white;
+
+}
+
+.topbar-user {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 6px;
+
+    cursor: pointer;
+
+}
+
+.topbar-avatar {
+
+    width: 40px;
+
+    height: 40px;
+
+    border-radius: 50%;
+
+    background: #9b8562;
+
+    color: white;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    font-weight: 600;
+
+}

@@ -1,0 +1,51 @@
+.settings-menu-item {
+
+    width: 100%;
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 20px;
+
+    background: none;
+
+    border: none;
+
+    text-align: left;
+
+    padding: 18px 8px;
+
+    cursor: pointer;
+
+    font-family: inherit;
+
+}
+
+.settings-menu-item:hover {
+
+    background: #faf6ee;
+
+    border-radius: 10px;
+
+}
+
+.settings-menu-item svg {
+
+    font-size: 22px;
+
+    color: #857c68;
+
+    flex-shrink: 0;
+
+}
+
+.settings-menu-item span {
+
+    font-size: 16px;
+
+    font-weight: 600;
+
+    color: #3a352a;
+
+}

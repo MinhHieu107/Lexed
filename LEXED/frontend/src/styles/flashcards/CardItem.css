@@ -1,0 +1,110 @@
+.card-item{
+
+    display:flex;
+    gap:20px;
+
+    background:#fff;
+
+    border:1px solid #e8e1d9;
+
+    border-radius:12px;
+
+    padding:24px;
+
+    margin-bottom:18px;
+
+}
+
+.number{
+
+    width:34px;
+    height:34px;
+
+    border-radius:50%;
+
+    background:#d4c5ae;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    font-weight:700;
+
+}
+
+.card-content{
+
+    flex:1;
+
+}
+
+.card-top{
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    margin-bottom:20px;
+
+}
+
+.card-top span{
+
+    font-size:12px;
+
+    font-weight:700;
+
+    color:#888;
+
+}
+
+.trash{
+
+    cursor:pointer;
+
+    color:#888;
+
+}
+
+.field{
+
+    display:flex;
+
+    flex-direction:column;
+
+    margin-bottom:18px;
+
+}
+
+.field label{
+
+    font-size:11px;
+
+    font-weight:700;
+
+    color:#7d7d7d;
+
+    margin-bottom:8px;
+
+}
+
+.field select,
+.field textarea{
+
+    border:1px solid #ddd;
+
+    border-radius:8px;
+
+    padding:12px;
+
+    font-size:14px;
+
+}
+
+.field textarea{
+
+    resize:vertical;
+
+    min-height:70px;
+
+}

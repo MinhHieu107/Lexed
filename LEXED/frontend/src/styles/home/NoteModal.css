@@ -1,0 +1,195 @@
+.note-modal-overlay {
+
+    position: fixed;
+
+    inset: 0;
+
+    background: rgba(30, 25, 15, 0.35);
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    z-index: 100;
+
+}
+
+.note-modal {
+
+    background: #ffffff;
+
+    border-radius: 16px;
+
+    padding: 28px;
+
+    width: 360px;
+
+    max-width: 90vw;
+
+}
+
+.note-modal h2 {
+
+    font-family: Georgia, "Times New Roman", serif;
+
+    color: #6b2b1a;
+
+    font-size: 22px;
+
+    margin-bottom: 18px;
+
+}
+
+.note-modal form {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 14px;
+
+}
+
+.note-modal label {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 6px;
+
+    font-size: 12px;
+
+    font-weight: 700;
+
+    color: #857c68;
+
+    text-transform: uppercase;
+
+    letter-spacing: 0.4px;
+
+}
+
+.note-modal input,
+.note-modal textarea {
+
+    font-family: inherit;
+
+    font-size: 14px;
+
+    font-weight: 400;
+
+    text-transform: none;
+
+    letter-spacing: normal;
+
+    color: #3a352a;
+
+    border: 1px solid #e3dccc;
+
+    border-radius: 8px;
+
+    padding: 8px 10px;
+
+    outline: none;
+
+    resize: vertical;
+
+}
+
+.note-modal input:focus,
+.note-modal textarea:focus {
+
+    border-color: #8ca16d;
+
+}
+
+.note-modal-error {
+
+    font-size: 13px;
+
+    color: #a13d3d;
+
+}
+
+.note-modal-actions {
+
+    display: flex;
+
+    justify-content: flex-end;
+
+    gap: 10px;
+
+    margin-top: 4px;
+
+}
+
+.note-delete-btn {
+
+    margin-right: auto;
+
+    background: none;
+
+    border: none;
+
+    color: #a13d3d;
+
+    font-weight: 600;
+
+    cursor: pointer;
+
+    font-size: 14px;
+
+}
+
+.note-cancel-btn {
+
+    background: #efe9df;
+
+    color: #3a352a;
+
+    border: none;
+
+    border-radius: 8px;
+
+    padding: 8px 16px;
+
+    font-size: 14px;
+
+    font-weight: 600;
+
+    cursor: pointer;
+
+}
+
+.note-save-btn {
+
+    background: #8ca16d;
+
+    color: white;
+
+    border: none;
+
+    border-radius: 8px;
+
+    padding: 8px 16px;
+
+    font-size: 14px;
+
+    font-weight: 600;
+
+    cursor: pointer;
+
+}
+
+.note-save-btn:disabled,
+.note-cancel-btn:disabled,
+.note-delete-btn:disabled {
+
+    opacity: 0.6;
+
+    cursor: not-allowed;
+
+}

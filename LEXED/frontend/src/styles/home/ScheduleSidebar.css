@@ -1,0 +1,206 @@
+.schedule-sidebar {
+
+    width: 280px;
+
+    flex-shrink: 0;
+
+}
+
+.schedule-month-row {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+}
+
+.schedule-month-row h2 {
+
+    font-family: Georgia, "Times New Roman", serif;
+
+    font-size: 30px;
+
+    color: #6b2b1a;
+
+}
+
+.schedule-month-nav {
+
+    display: flex;
+
+    gap: 8px;
+
+}
+
+.schedule-month-nav button {
+
+    width: 30px;
+
+    height: 30px;
+
+    border-radius: 50%;
+
+    border: 1px solid #6b2b1a;
+
+    background: none;
+
+    color: #6b2b1a;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    cursor: pointer;
+
+}
+
+.schedule-month-nav button:hover {
+
+    background: #6b2b1a;
+
+    color: white;
+
+}
+
+.schedule-year {
+
+    font-size: 13px;
+
+    color: #857c68;
+
+    margin: 4px 0 20px;
+
+}
+
+.schedule-question {
+
+    width: 100%;
+
+    border: none;
+
+    border-bottom: 1px solid #d9d2c1;
+
+    background: none;
+
+    padding: 8px 0;
+
+    font-size: 13px;
+
+    font-style: italic;
+
+    color: #857c68;
+
+    outline: none;
+
+    margin-bottom: 28px;
+
+}
+
+.schedule-highlight-label {
+
+    font-size: 11px;
+
+    font-weight: 700;
+
+    letter-spacing: 0.5px;
+
+    color: #857c68;
+
+    margin-bottom: 14px;
+
+}
+
+.schedule-event-list {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 18px;
+
+}
+
+.schedule-event {
+
+    display: block;
+
+    width: 100%;
+
+    background: none;
+
+    border: none;
+
+    padding: 0;
+
+    text-align: left;
+
+    font-family: inherit;
+
+    cursor: pointer;
+
+    border-radius: 8px;
+
+}
+
+.schedule-event:hover {
+
+    background: rgba(140, 161, 109, 0.1);
+
+}
+
+.schedule-empty {
+
+    font-size: 12px;
+
+    color: #a89f8d;
+
+    font-style: italic;
+
+}
+
+.schedule-event-date {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 8px;
+
+    font-size: 12px;
+
+    font-weight: 700;
+
+    color: #3a352a;
+
+}
+
+.schedule-event-time {
+
+    font-weight: 400;
+
+    color: #857c68;
+
+}
+
+.schedule-event h3 {
+
+    font-size: 14px;
+
+    color: #b3703f;
+
+    margin: 4px 0 2px;
+
+}
+
+.schedule-event p {
+
+    font-size: 12px;
+
+    color: #857c68;
+
+    line-height: 1.4;
+}

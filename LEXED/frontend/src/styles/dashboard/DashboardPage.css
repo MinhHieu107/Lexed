@@ -1,0 +1,85 @@
+.dashboard-layout {
+
+    display: flex;
+
+    min-height: 100vh;
+
+    background: #f3efe9;
+
+}
+
+.dashboard-main {
+
+    flex: 1;
+
+    display: flex;
+
+    flex-direction: column;
+
+    min-width: 0;
+
+}
+
+.dashboard-content {
+
+    padding: 30px 40px;
+
+}
+
+.section-header {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    margin: 30px 0 16px;
+
+}
+
+.section-header:first-child {
+
+    margin-top: 0;
+
+}
+
+.section-header h2 {
+
+    font-size: 20px;
+
+    color: #3a352a;
+
+}
+
+.view-all-link {
+
+    font-size: 14px;
+
+    color: #8ca16d;
+
+    text-decoration: none;
+
+    font-weight: 600;
+
+}
+
+.class-grid {
+
+    display: grid;
+
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+
+    gap: 20px;
+
+}
+
+.study-grid {
+
+    display: grid;
+
+    grid-template-columns: repeat(auto-fill, minmax(220px, 260px));
+
+    gap: 20px;
+
+}

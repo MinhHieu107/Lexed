@@ -1,0 +1,75 @@
+.hero{
+
+    width:100%;
+    height:550px;
+
+    background-size:cover;
+    background-position:center;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    position:relative;
+
+}
+
+.hero::before{
+
+    content:"";
+
+    position:absolute;
+
+    inset:0;
+
+    background:rgba(0,0,0,.45);
+
+}
+
+.hero-overlay{
+
+    position:relative;
+
+    z-index:2;
+
+    color:white;
+
+    text-align:center;
+
+}
+
+.hero-overlay h1{
+
+    font-size:60px;
+
+    margin-bottom:20px;
+
+}
+
+.hero-overlay p{
+
+    font-size:20px;
+
+    margin-bottom:40px;
+
+}
+
+.hero-overlay button{
+
+    padding:15px 35px;
+
+    border:none;
+
+    border-radius:8px;
+
+    background:#A58A65;
+
+    color:white;
+
+    cursor:pointer;
+
+    font-size:18px;
+
+}

@@ -1,0 +1,115 @@
+.home-header {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: flex-start;
+
+    padding: 30px 40px 10px;
+
+}
+
+.home-greeting h1 {
+
+    font-family: Georgia, "Times New Roman", serif;
+
+    font-size: 32px;
+
+    color: #6b2b1a;
+
+}
+
+.home-greeting p {
+
+    font-size: 14px;
+
+    color: #857c68;
+
+    margin-top: 4px;
+
+}
+
+.home-header-right {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 16px;
+
+}
+
+.home-search {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 10px;
+
+    background: #d9dcc7;
+
+    border-radius: 999px;
+
+    padding: 10px 20px;
+
+    color: #6b6350;
+
+    min-width: 260px;
+
+}
+
+.home-search input {
+
+    border: none;
+
+    background: none;
+
+    outline: none;
+
+    flex: 1;
+
+    font-size: 14px;
+
+    color: #3a352a;
+
+}
+
+.home-user {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 6px;
+
+    cursor: pointer;
+
+    padding-left: 16px;
+
+    border-left: 1px solid #d9d2c1;
+
+}
+
+.home-avatar {
+
+    width: 40px;
+
+    height: 40px;
+
+    border-radius: 50%;
+
+    background: #9b8562;
+
+    color: white;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    font-weight: 600;
+
+}

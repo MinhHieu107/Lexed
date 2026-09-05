@@ -1,0 +1,59 @@
+.home-layout {
+
+    display: flex;
+
+    min-height: 100vh;
+
+    background: #f3efe9;
+
+}
+
+.home-main {
+
+    flex: 1;
+
+    display: flex;
+
+    flex-direction: column;
+
+    min-width: 0;
+
+}
+
+.home-content {
+
+    padding: 10px 40px 40px;
+
+}
+
+.home-view-btn {
+
+    background: #4b4a2c;
+
+    color: white;
+
+    border: none;
+
+    border-radius: 8px;
+
+    padding: 10px 22px;
+
+    font-size: 14px;
+
+    font-weight: 600;
+
+    cursor: pointer;
+
+    margin-bottom: 20px;
+
+}
+
+.home-calendar-section {
+
+    display: flex;
+
+    gap: 24px;
+
+    align-items: flex-start;
+
+}
